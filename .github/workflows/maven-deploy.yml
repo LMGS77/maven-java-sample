@@ -34,7 +34,7 @@ jobs:
       uses: sonarsource/sonarqube-scan-action@v2.2.0 # Ex: v2.1.0, See the latest version at https://github.com/marketplace/actions/official-sonarqube-scan
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        SONAR_HOST_URL: "http://localhost:9000"
+        SONAR_HOST_URL: "http://51.20.130.25:9000"
       
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
